@@ -4,5 +4,3 @@
 - [x] Basic
 - [x] Loops And Conditions
 - [x] Patterns
-- [x] Function
-- [x] Array
