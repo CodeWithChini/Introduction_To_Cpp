@@ -12,5 +12,4 @@ int main()
         tab = n * i;
         cout << n << " " << "*" << " " << i << " " << "=" << " " << tab << endl;
     }
-
 }
