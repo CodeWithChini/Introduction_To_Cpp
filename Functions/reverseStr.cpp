@@ -19,7 +19,7 @@ void reverse(const string& str)
 
 int main()
 {
-  string str;
+  string str; 
 
   cout << " Please enter a string " << endl;
   getline(cin, str);
