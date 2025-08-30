@@ -25,6 +25,7 @@ vector<int> pairSum(vector<int> nums, int target)
         {
             ans.push_back(i);
             ans.push_back(j);
+            return ans; // Return the first pair found
         }
     }
     return ans;
@@ -48,7 +49,7 @@ int main()
 
     int target;
     cout << "Enter a target value : " << endl;
-    cin >> target; 
+    cin >> target;
 
     vector<int> result = pairSum(vec, target);
     cout << "The indices of the pairs whose sum is equal to target are: " << endl;
