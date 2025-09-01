@@ -25,7 +25,7 @@ int majorityElement(vector<int>& nums)
            freq--;
        }
    }
-    return ans;
+   return ans;
 }
 
 int main()
@@ -42,4 +42,8 @@ int main()
         cin >> x;
         vec.push_back(x);
     }
+
+    int ans = majorityElement(vec);
+    cout << "The majority element is: " << ans << endl;
+    return 0;
 }
